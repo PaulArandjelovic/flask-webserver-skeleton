@@ -10,7 +10,6 @@ class Config:
     # Static Assets
     STATIC_FOLDER = 'static'
     TEMPLATES_FOLDER = 'templates'
-    COMPRESSOR_DEBUG = environ.get('COMPRESSOR_DEBUG')
 
     # API
     BEST_BUY_API_KEY = environ.get('BEST_BUY_API_KEY')
