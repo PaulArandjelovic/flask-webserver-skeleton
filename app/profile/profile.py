@@ -5,7 +5,8 @@ from flask import Blueprint, render_template
 profile_bp = Blueprint(
     'profile_bp', __name__,
     template_folder='templates',
-    static_folder='static'
+    static_folder='static',
+    static_url_path='/static/profile'
 )
 
 
